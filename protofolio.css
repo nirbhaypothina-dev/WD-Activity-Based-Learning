@@ -1,10 +1,6 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #eef2ff;
     color: #1e293b;
     line-height: 1.6;
@@ -12,7 +8,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #4f46e5, #3730a3);
+    background-color: #3730a3;
     color: white;
     text-align: center;
     padding: 45px 20px;
@@ -35,7 +31,7 @@ nav a {
     font-weight: bold;
     padding: 6px 12px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: #4f46e5;
 }
 
 nav a:hover {
@@ -51,11 +47,11 @@ nav a:hover {
 }
 
 .card {
-    background: white;
+    background-color: white;
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    border: 1px solid #cbd5e1;
 }
 
 h2 {
@@ -65,7 +61,7 @@ h2 {
     padding-bottom: 8px;
 }
 
-/* Skill Badges */
+/* Skill Badges (Flexbox - Unit II) */
 .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +77,7 @@ h2 {
     font-size: 0.9rem;
 }
 
-/* Projects Grid */
+/* Projects Grid (Flexbox - Unit II) */
 .project-grid {
     display: flex;
     gap: 15px;
